@@ -1,0 +1,96 @@
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+:root {
+  --font-default: "Manrope", sans-serif;
+  --font-secondary: "Handlee", cursive;
+  --fontawesome: "Font Awesome 5 Pro";
+  --black: #000000;
+  --dark: #1f4e3d;
+  --white: #ffffff;
+  --color-primary: #49a760;
+  --color-secondary: #f7c35f;
+  --color-heading: #04000b;
+  --color-paragraph: #787878;
+  --box-shadow-primary: -1px 3px 10px 0 rgba(0, 0, 0, 0.6);
+  --box-shadow-secondary: 0 10px 30px 0 rgba(44, 130, 237, 0.4);
+  --box-shadow-regular: 0px 2px 12px 0px #e7e7e7;
+  --bg-gray: #eff2f5;
+  --bg-gradient: linear-gradient(
+    97deg,
+    #49a760 50%,
+    rgba(252, 197, 27, 1) 100%
+  );
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+div,
+span,
+img,
+ol,
+ul,
+li,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+option,
+legend,
+label,
+article,
+aside,
+caption,
+figure,
+footer,
+header,
+hgroup,
+mark,
+nav,
+section,
+time,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+.wrapper {
+  height: 100%;
+}
+
+img {
+  border: none;
+  outline: none;
+  max-width: 100%;
+}

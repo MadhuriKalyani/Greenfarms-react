@@ -1,0 +1,126 @@
+
+.order-main-section h2 {
+  margin-bottom: 20px;
+}
+.order-main-section .order-items {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+.orders-item-section {
+  display: flex;
+  justify-content: space-start;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.order-items-section h3 {
+  padding: 15px;
+  color: #395d26;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 27px;
+  margin: 0px auto;
+}
+.order-items-section p {
+  
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  margin: 0px auto;
+  padding-left: 18px;
+}
+.order-items-section h2 {
+  color: #395d26;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 27px;
+  margin: 0px auto;
+}
+.addres-input input {
+  width: 100%;
+  max-width: 45%;
+  padding: 10px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  background-color: #b3c5a1;
+  color: #395d26;
+  font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
+}
+.addres-input {
+  margin-top: 20px;
+}
+
+.order-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 2px solid #395d26;;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: #395d26 0px 4px 8px;
+  width: 100%;
+  max-width: 50%;
+
+}
+
+
+.img-sec img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+.tag-section-order {
+  flex: 1;
+}   
+.btn-sec button {
+  background-color: #395d26;
+  color: white;
+    border: none;
+    width: 100%;
+    max-width: 15%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn-sec button:hover {
+  background-color: #2e4218;
+  cursor: pointer;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-box {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  width: 300px;
+}
+
+
+.popup-box button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background: green;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}

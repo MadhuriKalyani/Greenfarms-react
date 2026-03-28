@@ -1,0 +1,19 @@
+.order-box{
+    background-color: #b3c5a1;
+    padding: 20px;
+    border: 2px solid #395d26;
+    box-shadow: #395d26 0px 4px 8px;
+    width: 100%;
+    max-width:55%;
+   
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+.order-box p{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+   
+    font-size: 19px;
+    margin-bottom: 10px;
+}

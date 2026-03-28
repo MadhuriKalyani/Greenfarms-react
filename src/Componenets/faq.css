@@ -1,0 +1,28 @@
+.faq-container {
+  max-width: 600px;
+  margin: auto;
+}
+.faq-section h2{
+    color: #395d26;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+  border: 1px solid #395d26;;
+  border-radius: 8px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s;
+}
+
+.faq-item:hover {
+  background-color: #f9f9f9;
+}
+
+.faq-answer {
+  padding-left: 10px;
+  color: #555;
+}
